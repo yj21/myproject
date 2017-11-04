@@ -1,0 +1,11 @@
+#teacher
+CREATE TABLE `db`.`teacher` ( `sr` INT NOT NULL , `name` VARCHAR(30) NOT NULL , `id` INT(3) NOT NULL , `email` VARCHAR(30) NOT NULL , `branch` VARCHAR(2) NOT NULL , PRIMARY KEY (`id`), UNIQUE (`sr`)) ENGINE = InnoDB;
+
+CREATE TABLE upload (
+id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(30) NOT NULL,
+type VARCHAR(30) NOT NULL,
+size INT NOT NULL,
+content MEDIUMBLOB NOT NULL,
+PRIMARY KEY(id)
+);
